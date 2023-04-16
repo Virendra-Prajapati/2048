@@ -15,7 +15,8 @@ public class InputManager : MonoBehaviour
             return;
         }
 
-        switch(Random.Range(0, 4))
+        //ForAutoPlay
+        /*switch(Random.Range(0, 4))
         {
             case 0:
                 BoardController.instance.MakeMove(Vector2.up);
@@ -31,27 +32,27 @@ public class InputManager : MonoBehaviour
                 break;
         }
         time = 0;
-        return;
+        return;*/
 
-		/*if (Input.GetKeyDown(KeyCode.UpArrow))
-		{
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
             time = 0;
-			BoardController.instance.MakeMove(Vector2.up);
-		}
-		else if (Input.GetKeyDown(KeyCode.DownArrow))
-		{
+            BoardController.instance.MakeMove(Vector2.up);
+        }
+        else if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
             time = 0;
-			BoardController.instance.MakeMove(Vector2.down);
-		}
-		else if (Input.GetKeyDown(KeyCode.LeftArrow))
-		{
+            BoardController.instance.MakeMove(Vector2.down);
+        }
+        else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
             time = 0;
-			BoardController.instance.MakeMove(Vector2.left);
-		}
-		else if (Input.GetKeyDown(KeyCode.RightArrow))
-		{
+            BoardController.instance.MakeMove(Vector2.left);
+        }
+        else if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
             time = 0;
-			BoardController.instance.MakeMove(Vector2.right);
-		}*/
-	}
+            BoardController.instance.MakeMove(Vector2.right);
+        }
+    }
 }
