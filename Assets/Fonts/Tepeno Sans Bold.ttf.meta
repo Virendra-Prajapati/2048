@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 8aa128c3c17fa7840b8bc55b9abb5d36
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Tepeno Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 99eba44a447de2b408770d2a7ad10fb4, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
